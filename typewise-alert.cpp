@@ -26,7 +26,7 @@ BreachType classifyTemperatureBreach(CoolingType coolingType, double temperature
   }
   return inferBreach(temperatureInC, lowerLimit, upperLimit); 
   */
-  return 0;
+  return TOO_HIGH;
 }
 
 void checkAndAlert(
